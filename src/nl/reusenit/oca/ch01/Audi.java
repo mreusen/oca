@@ -1,4 +1,4 @@
-package nl.reusenit.oca.c01declarationsandaccescontrol;
+package nl.reusenit.oca.ch01;
 
 public class Audi extends Car {
 
@@ -11,7 +11,7 @@ public class Audi extends Car {
 
 	@Override
 	public void goFast() {
-		setPrice(50000);
+		setSpeed(250);
 	}
 
 	@Override

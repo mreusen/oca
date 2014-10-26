@@ -1,9 +1,10 @@
-package nl.reusenit.oca.c01declarationsandaccescontrol;
+package nl.reusenit.oca.ch01;
 
 public abstract class Car {
 	private double price;
 	private String model;
 	private String year;
+	private int speed;
 
 	public abstract void goFast();
 
@@ -31,5 +32,13 @@ public abstract class Car {
 
 	public void setYear(String year) {
 		this.year = year;
+	}
+
+	public int getSpeed() {
+		return speed;
+	}
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
 	}
 }
