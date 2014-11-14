@@ -1,4 +1,4 @@
-package nl.reusenit.oca.ch01.bounce;
+package nl.reusenit.oca.ch01.interfaces;
 
 public class Ball implements Bounceable {
 

@@ -1,6 +1,6 @@
-package nl.reusenit.oca.ch01.bounce;
+package nl.reusenit.oca.ch01.interfaces;
 
-public interface Bounceable {
+public interface Bounceable extends AnotherInterface {
 
 	int MAX_HEIGHT = 100;
 
