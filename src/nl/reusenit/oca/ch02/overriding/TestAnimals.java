@@ -24,6 +24,10 @@ class Animal {
 	public void eat() {
 		System.out.println("generic Animal eating");
 	}
+	
+	public void printYourself() {
+		// Useful printing code goes here
+	}
 }
 
 class Horse extends Animal {

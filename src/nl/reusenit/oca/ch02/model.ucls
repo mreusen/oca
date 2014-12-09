@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.7" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="nl.reusenit.oca.ch02.polymorphism.PlayerPiece" project="OCA" 
-    file="/OCA/src/nl/reusenit/oca/ch02/polymorphism/Animatable.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="423" y="149"/>    
+  <class id="1" language="java" name="nl.reusenit.oca.ch02.Animal" project="OCA" 
+    file="/OCA/src/nl/reusenit/oca/ch02/Animal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="121" x="349" y="95"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="2" language="java" name="nl.reusenit.oca.ch02.polymorphism.Animatable" project="OCA" 
-    file="/OCA/src/nl/reusenit/oca/ch02/polymorphism/Animatable.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="423" y="295"/>    
+  <class id="2" language="java" name="nl.reusenit.oca.ch02.Vehicle" project="OCA" 
+    file="/OCA/src/nl/reusenit/oca/ch02/Vehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="121" x="510" y="95"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
-  </interface>  
-  <realization id="3">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
+  </class>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

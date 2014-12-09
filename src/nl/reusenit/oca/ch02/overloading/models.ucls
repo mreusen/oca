@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.7" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="nl.reusenit.oca.ch02.polymorphism.PlayerPiece" project="OCA" 
-    file="/OCA/src/nl/reusenit/oca/ch02/polymorphism/Animatable.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="423" y="149"/>    
+  <class id="1" language="java" name="nl.reusenit.oca.ch02.overloading.Animal" project="OCA" 
+    file="/OCA/src/nl/reusenit/oca/ch02/overloading/UseAnimals.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="391" y="129"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="2" language="java" name="nl.reusenit.oca.ch02.polymorphism.Animatable" project="OCA" 
-    file="/OCA/src/nl/reusenit/oca/ch02/polymorphism/Animatable.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="423" y="295"/>    
+  <class id="2" language="java" name="nl.reusenit.oca.ch02.overloading.Horse" project="OCA" 
+    file="/OCA/src/nl/reusenit/oca/ch02/overloading/UseAnimals.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="391" y="311"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
-  </interface>  
-  <realization id="3">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
+  </class>  
+  <class id="3" language="java" name="nl.reusenit.oca.ch02.overloading.UseAnimals" project="OCA" 
+    file="/OCA/src/nl/reusenit/oca/ch02/overloading/UseAnimals.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="619" y="156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="4">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
