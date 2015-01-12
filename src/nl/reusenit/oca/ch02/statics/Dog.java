@@ -6,7 +6,7 @@ class Animal {
 	
 	{System.out.println("Animal instance init-block");}
 
-	Animal() {
+	protected Animal() {			// protected, visible by other Classes in same package
 		System.out.println("Animal constructor runs");
 	}
 	static void doStuff() {

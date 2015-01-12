@@ -11,6 +11,7 @@ public class TestAnimals {
 		a.eat();					// runs the Animal version of eat()
 		b.eat();					// runs the Horse version of eat()
 		// a.buck();				// can't invoke buck() Animal class doesn't have that method
+		((Horse) a).buck();			// first downcasting Animal to a Horse, OK
 
 		Horse c = new Horse();
 		c.eat();
